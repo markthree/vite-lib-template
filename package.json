@@ -1,0 +1,37 @@
+{
+  "name": "uramda",
+  "version": "0.0.1",
+  "description": "ramda的仿造品",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/uramda.umd.js",
+  "module": "./dist/uramda.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/uramda.es.js",
+      "require": "./dist/uramda.umd.js"
+    }
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "vite build && tsc",
+    "test:watch": "vitest watch",
+    "coverage": "vitest --coverage"
+  },
+  "keywords": [
+    "fn",
+    "ramda",
+    "utils",
+    "javascript"
+  ],
+  "author": "markthree",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.10",
+    "vitest": "^0.0.139"
+  }
+}
