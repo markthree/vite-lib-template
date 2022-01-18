@@ -1,7 +1,7 @@
 {
-  "name": "uramda",
+  "name": "vite-lib-template",
   "version": "0.0.1",
-  "description": "ramda的仿造品",
+  "description": "开箱即用的vite库模板",
   "files": [
     "dist"
   ],
