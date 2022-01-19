@@ -5,13 +5,13 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/uramda.umd.js",
-  "module": "./dist/uramda.es.js",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/uramda.es.js",
-      "require": "./dist/uramda.umd.js"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
     }
   },
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "keywords": [
     "fn",
-    "ramda",
+    "lib",
     "utils",
     "javascript"
   ],
