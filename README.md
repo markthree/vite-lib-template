@@ -1,10 +1,10 @@
 # vite-lib-template
 
-开箱即用的vite库模板
+开箱即用的 `vite` 库模板
 
 <br />
 
-## features
+## features 🦖
 
 - pnpm 的
 - vitest 测试
@@ -12,7 +12,7 @@
 
 <br />
 
-## Usage
+## How to debug 🦕
 
 ### install
 
@@ -37,3 +37,12 @@ pnpm build
 ```shell
 pnpm coverage
 ```
+
+<br />
+<br />
+
+## License
+
+Made with authorname
+
+Published under [MIT License](./LICENSE).
